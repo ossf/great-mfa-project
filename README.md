@@ -24,9 +24,28 @@ Here are a few key parts of the current plan:
    single-use coupon codes. They'll then to to a site clearly controlled
    by a donator (e.g., *.google.com or *.github.com), and then
    supply information such as their name and coupon code.
-2.  We need to be able to show that we're helping (metrics).
+2. We need to be able to show that we're helping (metrics).
 3. We need to provide or link to information to make these easy to use
    for common cases.
+
+Why do this? Our goal is to prevent supply chain attacks involving
+weak or compromised credentials of developers of open source software.
+The
+["Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attack" by Ohm et al](https://arxiv.org/abs/2005.09535)
+noted that this is one way to subvert OSS, e.g.,
+its source code (in a force) or its package (in a package repository).
+Here are examples:
+
+* coa and rc - ["Malware found in coa and rc, two npm packages with 23M weekly downloads", 2021-11-05](https://therecord.media/malware-found-in-coa-and-rc-two-npm-packages-with-23m-weekly-downloads/)
+* UA-Parser-JS library;  - ["Popular NPM package UA-Parser-JS poisoned with cryptomining, password-stealing malware", Adam Bannister, 2021-10-25](https://portswigger.net/daily-swig/popular-npm-package-ua-parser-js-poisoned-with-cryptomining-password-stealing-malware)
+* Homebrew - [Holmes, E.: "How i gained commit access to homebrew in 30 minutes", 2018](https://medium.com/@vesirin/how-i-gained-commit-access-to-homebrew-in-30-minutes-2ae314df03ab)
+* Gentoo Linux - [Khandelwal, S. "Password-guessing was used to hack gentoo linux github account", 2017]( https://thehackernews.com/2018/07/github-hacking-gentoo-linux.html)
+
+MFA tokens don't counter all attacks (such as typosquatting)
+but they can definitely help.
+
+Some will refer to these as "two-factor authentication" (2FA) tokens,
+however, for various reasons we're using the term "MFA" instead.
 
 The Great MFA Distribution Project is a project of the Linux Foundation's
 [Open Source Security Foundation (OpenSSF)](https://openssf.org/)
