@@ -13,7 +13,7 @@ Google and GitHub - thank you so much!
 
 We are currently in the process of creating a plan to do this.
 You can see the draft document
-[The "Great MFA Distribution" Plan](https://docs.google.com/document/d/1Hhg4KcLCzEdd9ZcbdEviN0TIUTLyWDsIdF6B_hY3Xv0/edit) if you want to see more.
+[*The Great MFA Distribution Plan*](https://docs.google.com/document/d/1Hhg4KcLCzEdd9ZcbdEviN0TIUTLyWDsIdF6B_hY3Xv0/edit) if you want to see more.
 We're doing this carefully, because our goal is *not* turn this
 into the "world's best supply chain attack".
 We also want to ensure this isn't just a "token effort".
