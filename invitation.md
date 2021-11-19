@@ -17,8 +17,8 @@ We'd especially like to give them to any of your maintainers
 who aren't already using any.
 
 Please let us know how many you'd like by 2021-12-20 (and preferably sooner).
-We can provide your project up to 10 Titan tokens from Google and
-10 Yubikey tokens from GitHub.  If you'd use more, let us know that,
+We can provide your project up to ??5 Titan tokens from Google and
+??5 Yubikey tokens from GitHub.  If you'd use more, let us know that,
 we might be able to give you more.  Please also tell us an email
 address where we can privately send you the coupon codes to do this.
 
