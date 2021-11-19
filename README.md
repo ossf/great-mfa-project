@@ -39,6 +39,9 @@ in common OSS situations.
 
 ### Yubikey
 
+[Yubikey Guide](http://github.com/drduh/YubiKey-Guide) is a relatively
+exhaustive guide.
+
 * How to setup on MacOS, Windows, Linux desktops
 * How to log into GitHub / GitLab
 * How to post a release to Python PyPI
@@ -63,7 +66,8 @@ Here is our basic plan:
 You can see the draft document
 [*The Great MFA Distribution Plan*](https://docs.google.com/document/d/1Hhg4KcLCzEdd9ZcbdEviN0TIUTLyWDsIdF6B_hY3Xv0/edit) if you want to see more detail.
 We've taken some steps to make sure this does *not* turn into
-the "world's best supply chain attack".
+the "world's best supply chain attack"; see our
+[security rationale](./security-rationale.md).
 We also want to ensure this isn't just a "token effort".
 
 
