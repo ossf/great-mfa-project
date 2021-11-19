@@ -33,12 +33,14 @@ Our goal is to counter supply chain attacks on open source software (OSS)
 where an attacker steals a maintainer's password and uses it to distribute
 malware. These attacks have already occurred many times, such as in
 [UA-Parser-JS]([https://portswigger.net/daily-swig/popular-npm-package-ua-parser-js-poisoned-with-cryptomining-password-stealing-malware), [coa, and rc](https://therecord.media/malware-found-in-coa-and-rc-two-npm-packages-with-23m-weekly-downloads/).
-Your project has been identified as an open source software (OSS) project
-that is especially critical.
+Your project has been identified as critical open source software (OSS) project
+and we'd like to give you tokens to help you.
 
 To qualify, each token recipient must:
 
-1. Be a contributor to at least one open source software (OSS) project.
+1. Be a maintainer or contributor to this critical open source software (OSS)
+   project, or to another OSS project that this project depends on
+   (the dependency may be indirect).
 2. Try to use an MFA token once they receive the token.
    We'd like recipients to use MFA tokens from then on, but at least try.
 3. Not reuse the token between different people (the token must not be shared).
