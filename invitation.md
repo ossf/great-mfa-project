@@ -14,25 +14,29 @@ Improvements welcome!
 
 ## Invitation text
 
-Hi! We'd like to give your project's maintainers
-*free* multi-factor authentication (MFA) hardware tokens.
+Hi! We'd like to give your project's maintainers *free*
+multi-factor authentication (MFA) hardware tokens from Google and GitHub.
 We'd especially like to give them to any of your maintainers
 who aren't already using any.
 
 Please let us know how many you'd like by 2021-12-20 (and preferably sooner).
-We can provide your project up to ??5 Titan tokens from Google and
-??5 Yubikey tokens from GitHub.  If you'd use more, let us know that,
+We can provide your project up to 5 Titan tokens from Google and up to
+5 Yubikey tokens from GitHub.  If you'd use more, let us know that,
 we might be able to give you more.  Please *also* tell us an email
-address where we can *privately* send you the coupon codes to get the tokens.
-The coupon codes are use-once, so make sure you can keep them private.
-The Google coupon codes *must* be used by 2021-12-31 or they expire.
+address where we can *privately* send you the coupon codes and
+validation codes needed to get the tokens.  These codes are use-once, so
+make sure you can keep them private until they're used by the
+intended person.
+
+The token recipients would use the coupon codes and validation codes to "buy"
+the tokens from the Google Store and/or GitHub Shop, who would ship
+the tokens directly to recipients.
+
+Note: The Google coupon codes *must* be used by 2021-12-31 or they expire.
 
 These tokens are being provided free-of-charge by Google and GitHub
 through the Open Source Security Foundation (OpenSSF)'s
 "Great Multi-Factor Authentication (MFA) Distribution" project.
-We would give your project some coupon codes, which you would give to
-your maintainers to use on the Google and GitHub stores (respectively).
-
 Our goal is to counter supply chain attacks on open source software (OSS)
 where an attacker steals a maintainer's password and uses it to distribute
 malware. These attacks have already occurred many times, such as in
@@ -50,14 +54,15 @@ To qualify, each token recipient must:
 3. Not reuse the token between different people (the token must not be shared).
 4. Consider providing feedback to us (so we can try to fix problems).
 
-We also need each project that receives coupon codes
+We also need each project that receives coupon codes and/or validation codes
 to tell us, within 30 days of getting the codes:
 
-1. How many people used the coupon codes to receive an MFA token, and
-2. How many of those people didn't have an MFA hardware
-   token before.
+1. How many of recipients didn't have an MFA hardware
+   token before, and
+2. How many people used the Google coupon codes to receive an MFA token
+   (we can separately get the total counts for the GitHub validation codes)
 
-The people you sent thee coupon codes should be able to tell you this!
+The people you sent codes to should be able to tell you this!
 We need this information so we can tell others some simple measures of success.
 We don't need the names of any individuals.
 
