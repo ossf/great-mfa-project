@@ -22,6 +22,7 @@ We can provide your project up to ??5 Titan tokens from Google and
 we might be able to give you more.  Please *also* tell us an email
 address where we can *privately* send you the coupon codes to get the tokens.
 The coupon codes are use-once, so make sure you can keep them private.
+The Google coupon codes *must* be used by 2021-12-31 or they expire.
 
 These tokens are being provided free-of-charge by Google and GitHub
 through the Open Source Security Foundation (OpenSSF)'s
