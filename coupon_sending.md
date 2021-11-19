@@ -6,6 +6,9 @@ The following draft text is to be sent by a "sender" to a
 critical project's PRIVATE email address (or similar private channel),
 once they've agreed to accept the coupon codes.
 
+NOTE: This needs to be fixed, GitHub plans to distribute a form entry
+that would then give a coupon code.
+
 Improvements welcome!
 
 ## Sending coupon code text

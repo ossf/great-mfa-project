@@ -7,6 +7,9 @@ to request MFA tokens. In most cases these would be created
 as an issue on the project's GitHub/GitLab/etc. page, or sent as
 an email to their security contact email address.
 
+NOTE: This needs to be fixed, GitHub plans to distribute a form entry
+that would then give a coupon code.
+
 Improvements welcome!
 
 ## Invitation text
