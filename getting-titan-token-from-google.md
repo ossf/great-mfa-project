@@ -3,7 +3,8 @@
 Here is how to get an Multi-factor Authentication (MFA) Titan token from Google.
 Note that tokens are also called "security keys" or "keys".
 
-It's easy. Basically, you go to the [Google Store](https://store.google.com) and buy what you need; if you have a coupon code you can use it to get the token for free.
+It's easy. Basically, you go to the
+[Google Store's Titan key page](https://store.google.com/product/titan_security_key) and buy what you need; if you have a coupon code you can use it to get the token for free.
 
 One caveat: These tokens are
 shipped from the US, so they cannot be shipped to countries if it

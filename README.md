@@ -8,25 +8,66 @@ The goal of this project is to:
    some developers of critical open source software (OSS), and
 2. Provide or point to information so help people *easily* use MFA tokens.
 
-We have received offers to provide and distribute MFA tokens from
-Google and GitHub - thank you so much!
+Google and GitHub have generously offered to provide and distribute MFA tokens.
+Thank you!
 
-We are currently in the process of creating a plan to do this.
+## How do I get an MFA token?
+
+If your open source software (OSS) project has notified you that
+you're getting a free token from us,
+you'll receive a Google coupon code or a GitHub validation code.
+Here are step-by-step instructions:
+
+* [How to get a Titan token from Google](getting-titan-token-from-google.md)
+* [How to get a Yubikey token from GitHub](getting-yubikey-token-from-github.md)
+
+The OpenSSF cares about privacy and does *not* get detailed lists of
+who gets every token; we only get aggregate values (per-project Google tokens
+and aggregate totals from GitHub).
+
+## How do I use an MFA token?
+
+We've developed some simple instructions for using MFA tokens
+in common OSS situations.
+
+### Titan
+
+* How to setup on MacOS, Windows, Linux desktops
+* How to log into GitHub / GitLab
+* How to post a release to Python PyPI
+* How to post a release to JavaScript npm
+
+### Yubikey
+
+* How to setup on MacOS, Windows, Linux desktops
+* How to log into GitHub / GitLab
+* How to post a release to Python PyPI
+* How to post a release to JavaScript npm
+
+## How we're doing this
+
+Here is our basic plan:
+* We'll use a list of about 100 critical open source software (OSS) projects
+  as identified by the [OpenSSF Securing Critical Projects Working Group](https://github.com/ossf/wg-securing-critical-projects); see
+  [their current list](https://docs.google.com/spreadsheets/d/1ONZ4qeMq8xmeCHX03lIgIYE4MEXVfVL6oj05lbuXTDM/edit#gid=0). We'll use the version as of
+  2021-12-02, since the Google coupon codes expire on 2021-12-31.
+* We'll also develop a set of simple documents on how to use these tokens
+  for common OSS cases, by 2021-12-02
+* Identified critical OSS projects will be sent at [invitation](./invitation.md) by one of the great-mfa-plan notifiers (e.g., John Naulty, David A. Wheeler), typically by filing an issue, in 2021-12-02..09.
+* When a project accepts, the notifier will tell a sender (David A. Wheeler or Jory Burson) key information: the project who has accepted, the email address to send private information to, and how the project accepted. The sender will then send the project the coupon codes and validation codes using the [coupon_sending.md](./coupond_code.md) template. This is 2021-12-03..31.
+* Projects distribute the codes. Receivers use them to get the tokens from
+  the Google Store or GitHub shop. Then the tokens get used!
+* Projects send back some information, that we combine with other data
+  and determine whether or not we've had a positive effect (hopefully we have!).
+
 You can see the draft document
-[*The Great MFA Distribution Plan*](https://docs.google.com/document/d/1Hhg4KcLCzEdd9ZcbdEviN0TIUTLyWDsIdF6B_hY3Xv0/edit) if you want to see more.
-We're doing this carefully, because our goal is *not* turn this
-into the "world's best supply chain attack".
+[*The Great MFA Distribution Plan*](https://docs.google.com/document/d/1Hhg4KcLCzEdd9ZcbdEviN0TIUTLyWDsIdF6B_hY3Xv0/edit) if you want to see more detail.
+We've taken some steps to make sure this does *not* turn into
+the "world's best supply chain attack".
 We also want to ensure this isn't just a "token effort".
 
-Here are a few key parts of the current plan:
 
-1. Developers who receive MFA tokens through this program will receive
-   single-use coupon codes. They'll then to to a site clearly controlled
-   by a donator (e.g., *.google.com or *.github.com), and then
-   supply information such as their name and coupon code.
-2. We need to be able to show that we're helping (metrics).
-3. We need to provide or link to information to make these easy to use
-   for common cases.
+## Why are we doing this?
 
 Why do this? Our goal is to prevent supply chain attacks involving
 weak or compromised credentials of developers of open source software.
@@ -43,6 +84,8 @@ Here are examples:
 
 MFA tokens don't counter all attacks (such as typosquatting)
 but they can definitely help.
+
+## Background information
 
 Some will refer to these as "two-factor authentication" (2FA) tokens,
 however, for various reasons we're using the term "MFA" instead.
