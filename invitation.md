@@ -48,9 +48,9 @@ to receive an MFA token and (2) how many of them didn't have an MFA hardware
 token before. That way, we can tell others some simple measures of success.
 
 Please note that the tokens are shipped from the US, so while they
-can be shipped internationally, we aren't be allowed to honor
-requests to ship somewhere forbidden (sanctioned) under US law.  At
-the moment that means we can't ship to China, Afghanistan, Russia,
+can be shipped internationally, we can't ship somewhere if that is
+[forbidden (sanctioned) under US law](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information).
+So unless rules change we can't ship them to China, Afghanistan, Russia,
 Ukraine, North Korea, Iran, Sudan, and Syria.  Sorry about that.
 
 We provide how-tos and other information at the
