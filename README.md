@@ -39,6 +39,9 @@ in common OSS situations.
 
 ### Yubikey
 
+[Yubikey Guide](http://github.com/drduh/YubiKey-Guide) is a relatively
+exhaustive guide.
+
 * How to setup on MacOS, Windows, Linux desktops
 * How to log into GitHub / GitLab
 * How to post a release to Python PyPI
