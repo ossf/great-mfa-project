@@ -19,13 +19,21 @@ Thanks so much for being willing to use these free
 Below are the coupon codes for the Google Titan tokens and/or
 thee validation keys for the GitHub Yubikey tokens.
 Please distribute each one to maintainers and contributors to your
-project and/or open source software projects that your project depends on.
-DO NOT make the codes public, each one can only be used *once*.
+project and/or any open source software projects that your project depends on.
+DO NOT make the codes public, each code can only be used *once*.
+
+The Google coupon codes *must* be used by the end of 2021
+(they expire afterwards).
+If you decide not to use any coupon codes or validation codes, please
+tell us as soon as possible so we can give them to someone else.
 
 Those getting the Titan tokens from Google would use the Google Store's page for Titan tokens at <https://store.google.com/product/titan_security_key>.
 We have step-by-step instructions for getting a Titan key at <https://github.com/ossf/great-mfa-project/blob/main/getting-titan-token-from-google.md>.
 
-Those getting the Yubikey tokens from GitHub would first use a form to turn the validation code into a coupon code, at https://forms.gle/zYLbdmGsgAFbeZr26. They would then use the GitHub Shop's Yubikey page at <https://thegithubshop.com/products/github-branded-yubikey?_pos=1&_sid=4893867a7&_ss=r>.
+Those getting the Yubikey tokens from GitHub would first use a Google form
+to turn the validation code into a coupon code, at
+<https://forms.gle/zYLbdmGsgAFbeZr26>.
+They would then use the GitHub Shop's Yubikey page at <https://thegithubshop.com/products/github-branded-yubikey?_pos=1&_sid=4893867a7&_ss=r>.
 We have step-by-step instructions for getting a Yubikey key at <https://github.com/ossf/great-mfa-project/blob/main/getting-yubikey-token-from-github.md>.
 
 To qualify, each token recipient must:
