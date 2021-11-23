@@ -14,15 +14,27 @@ Improvements welcome!
 
 ## Invitation text
 
-Hi! We'd like to give your project's maintainers *free*
+Hello! I am <YOUR NAME> and I work with the OpenSSF's 
+   [Developer Best Practices Working Group](https://github.com/ossf/wg-best-practices-os-developers).
+Our group is dedicated to improving open source developers' working 
+   lives through highlighting good security practices that can simply 
+   be added into a developer's of project's workflow to increase the 
+   overall security posture of that community.
+   
+Our group has undertaken a project we've dubbed "[The Great MFA Give-away](https://github.com/ossf/great-mfa-project)"
+   in the hopes of improving open source developers authentication 
+   security (logging into tooling and infrastrure) and 
+   the integrity of the code that project delivers (code-signing).  
+   We'd like to give your project's maintainers *free*
 multi-factor authentication (MFA) hardware tokens from Google and GitHub.
 We'd especially like to give them to any of your maintainers
 who aren't already using any.
 
-Please let us know how many you'd like by 2021-12-20 (and preferably sooner).
+If your project is interested, please let us know how many you'd like 
+   by 2021-12-20 (and preferably sooner).
 We can provide your project up to 5 Titan tokens from Google and up to
-5 Yubikey tokens from GitHub.  If you'd use more, let us know that,
-we might be able to give you more.  Please *also* tell us an email
+5 Yubikey tokens from GitHub.  If you could use more, please let us know that,
+we work to try an accomodate that request to get your group more.  Please *also* tell us an email
 address where we can *privately* send you the coupon codes and
 validation codes needed to get the tokens.  These codes are use-once, so
 make sure you can keep them private until they're used by the
@@ -30,8 +42,8 @@ intended person.
 
 The token recipients would use the coupon codes and validation codes to "buy"
 the tokens from the Google Store and/or GitHub Shop, who would ship
-the tokens directly to recipients.
-
+the tokens directly to recipients.  
+   
 Note: The Google coupon codes *must* be used by 2021-12-31 or they expire.
 
 These tokens are being provided free-of-charge by Google and GitHub
@@ -62,16 +74,15 @@ to tell us, within 30 days of getting the codes:
 2. How many people used the Google coupon codes to receive an MFA token
    (we can separately get the total counts for the GitHub validation codes)
 
-The people you sent codes to should be able to tell you this!
-We need this information so we can tell others some simple measures of success.
-We don't need the names of any individuals.
+We ask for this information so we can tell others some simple measures of success.
+We don't need nor want the names of any individuals participating.
 
 Please note that the tokens are shipped from the US, so while they
 can be shipped internationally, we can't ship somewhere if that is
 [forbidden (sanctioned) under US law](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information).
-So unless rules change we can't ship them to China, Afghanistan, Russia,
+So at this time we are unable to ship to individuals in China, Afghanistan, Russia,
 Ukraine, North Korea, Iran, Sudan, and Syria.  Sorry about that.
 
-We provide how-tos and other information at the
+For more information including how-tos and other setup information can be found at the
 "Great Multi-Factor Authentication (MFA) Distribution Project" site:
 <https://github.com/ossf/great-mfa-project>
