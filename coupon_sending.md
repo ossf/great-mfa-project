@@ -25,7 +25,7 @@ DO NOT make the codes public, each one can only be used *once*.
 Those getting the Titan tokens from Google would use the Google Store's page for Titan tokens at <https://store.google.com/product/titan_security_key>.
 We have step-by-step instructions for getting a Titan key at <https://github.com/ossf/great-mfa-project/blob/main/getting-titan-token-from-google.md>.
 
-Those getting the Yubikey tokens from GitHub would first use a GitHub form to turn the validation code into a coupon code, at <???>.  They would then use the GitHub Shop's Yubikey page at <https://thegithubshop.com/products/github-branded-yubikey?_pos=1&_sid=4893867a7&_ss=r>.
+Those getting the Yubikey tokens from GitHub would first use a form to turn the validation code into a coupon code, at https://forms.gle/zYLbdmGsgAFbeZr26. They would then use the GitHub Shop's Yubikey page at <https://thegithubshop.com/products/github-branded-yubikey?_pos=1&_sid=4893867a7&_ss=r>.
 We have step-by-step instructions for getting a Yubikey key at <https://github.com/ossf/great-mfa-project/blob/main/getting-yubikey-token-from-github.md>.
 
 To qualify, each token recipient must:
