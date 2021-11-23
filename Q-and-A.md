@@ -1,4 +1,4 @@
-# Q & A
+# Q-and-A
 
 Here is a non-exhaustive list of questions and answers around the project
 
