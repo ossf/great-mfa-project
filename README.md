@@ -4,12 +4,17 @@ Welcome to the Great MFA Distribution Project
 (`great-mfa-project`).
 The goal of this project is to:
 
-1. Distribute multi-factor authentication (MFA) tokens to
+1. Promote the use of multi-factor authentications through out all stages of Open Source Software development
+2. Distribute multi-factor authentication (MFA) tokens to
    some developers of critical open source software (OSS), and
 2. Provide or point to information so help people *easily* use MFA tokens.
 
-Google and GitHub have generously offered to provide and distribute MFA tokens.
+The OpenSSF is working with Google and GitHub who have generously offered to provide and distribute MFA tokens.
 Thank you!
+
+These MFA tokens can be used in many applications in a developers workflow.  They help provide higer degrees
+of validation for a developer's identity when logging into code repositories or applications or performing 
+critical tasks such as signing code.
 
 ## How do I get an MFA token?
 
@@ -20,6 +25,9 @@ Here are step-by-step instructions:
 
 * [How to get a Titan token from Google](getting-titan-token-from-google.md)
 * [How to get a Yubikey token from GitHub](getting-yubikey-token-from-github.md)
+
+If you contribute to an OSS project and were not contacted during our first round of
+token distribution, please reach out to our [Working Group](openssf-wg-best-practices+owner@lists.openssf.org) for more information.
 
 The OpenSSF cares about privacy and does *not* get detailed lists of
 who gets every token; we only get aggregate values (per-project Google tokens
@@ -50,7 +58,7 @@ exhaustive guide.
 ## How we're doing this
 
 Here is our basic plan:
-* We'll use a list of about 100 critical open source software (OSS) projects
+* Using a list of about 100 critical open source software (OSS) projects
   as identified by the [OpenSSF Securing Critical Projects Working Group](https://github.com/ossf/wg-securing-critical-projects); see
   [their current list](https://docs.google.com/spreadsheets/d/1ONZ4qeMq8xmeCHX03lIgIYE4MEXVfVL6oj05lbuXTDM/edit#gid=0). We'll use the version as of
   2021-12-02, since the Google coupon codes expire on 2021-12-31.
@@ -75,6 +83,12 @@ We also want to ensure this isn't just a "token effort".
 
 Why do this? Our goal is to prevent supply chain attacks involving
 weak or compromised credentials of developers of open source software.
+
+Over the last several years Open Source Software has become critical upstream components 
+of many aspects of software and applications that are used the world-over.  Along with this
+increase in use, so has the potential for malicious actors to exploit the amazing work OSS
+communities develop each day.  
+
 The
 ["Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attack" by Ohm et al](https://arxiv.org/abs/2005.09535)
 noted that this is one way to subvert OSS, e.g.,
@@ -86,8 +100,9 @@ Here are examples:
 * Homebrew - [Holmes, E.: "How i gained commit access to homebrew in 30 minutes", 2018](https://medium.com/@vesirin/how-i-gained-commit-access-to-homebrew-in-30-minutes-2ae314df03ab)
 * Gentoo Linux - [Khandelwal, S. "Password-guessing was used to hack gentoo linux github account", 2017]( https://thehackernews.com/2018/07/github-hacking-gentoo-linux.html)
 
-MFA tokens don't counter all attacks (such as typosquatting)
-but they can definitely help.
+MFA tokens don't counter all attacks (such as typosquatting), but by using tools such
+as Multi-factor Authentication, the likelihood that such bad actors 
+would be able to violate the integrity of that open source supply chain is greatly reduced.
 
 ## Background information
 
