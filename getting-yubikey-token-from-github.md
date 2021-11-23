@@ -5,12 +5,11 @@ token from GitHub.
 Note that tokens are also called "security keys" or "keys".
 
 It's easy.
-First, you'll go to a GitHub form at ???github.com
-to convert your validation code into a coupon code.
-Then you go to the
-[GitHub Shop's Yubikey page](<https://thegithubshop.com/products/github-branded-yubikey?_pos=1&_sid=4893867a7&_ss=r)
-and buy what you need;
-if you have a coupon code you can use it to get the token for free.
+First, GitHub will send you a form to collect your GitHub handle and verify
+your eligibility to this program via a verification code.
+A few days later you will receive a coupon code that will allow you to get
+a [GitHub branded Yubikey from their shop](https://thegithubshop.com/products/github-branded-yubikey?_pos=1&_sid=4893867a7&_ss=r)
+for free.
 
 One caveat: These tokens are
 shipped from the US, so they cannot be shipped to countries if it
@@ -19,7 +18,7 @@ Our apologies; we can’t control US law.
 
 ## Get started
 
-??? Need more info
+After you accepted to participate in this project, you will receive a validation code and a form to fill in.
 
 ## Use validation code to get coupon code
 
