@@ -12,11 +12,38 @@ site](https://demo.yubico.com/webauthn-technical/registration)
 
 Assuming your test worked, please continue with the how to use instructions
 
-## All Platforms
+## Platform agnostic
 
 ### GitHub
 
+GitHub has instructions for enabling a security key
+[Configuring two-factor authentication using a security
+key](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-security-key)
+
 ### GitLab
+
+GitLab has instructions for configuring a security key
+[WebAuthn
+device](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html#webauthn-device)
+
+### NPM
+
+NPM does not support security keys. To use MFA you must use an authenticator
+app.
+[Configuring two-factor
+authentication](https://docs.npmjs.com/configuring-two-factor-authentication)
+
+### PyPI
+
+PyPI has instructions to configure a security key
+[How does two factor authentication with a security device (e.g. USB key) work?
+How do I set it up on PyPI?](https://pypi.org/help/#utfkey)
+
+### RubyGems
+
+RubyGems does not support security keys. To use MFA you must use an
+authenticator app [SETTING UP MULTIFACTOR
+AUTHENTICATION](https://guides.rubygems.org/setting-up-multifactor-authentication/)
 
 ## Linux
 
