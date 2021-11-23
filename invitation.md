@@ -21,7 +21,7 @@ Our group is dedicated to improving open source developers' working
    be added into a developer's of project's workflow to increase the 
    overall security posture of that community.
    
-Our group has undertaken a project we've dubbed "[The Great MFA Give-away](https://github.com/ossf/great-mfa-project)"
+Our group has undertaken a project we've dubbed "[The Great MFA Distribution Project](https://github.com/ossf/great-mfa-project)"
    in the hopes of improving open source developers authentication 
    security (logging into tooling and infrastrure) and 
    the integrity of the code that project delivers (code-signing).  
