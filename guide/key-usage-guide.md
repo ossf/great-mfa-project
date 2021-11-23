@@ -33,6 +33,11 @@ app.
 [Configuring two-factor
 authentication](https://docs.npmjs.com/configuring-two-factor-authentication)
 
+A package can be configured to require MFA when publishing
+[Requiring 2FA for package publishing and settings modification](https://docs.npmjs.com/requiring-2fa-for-package-publishing-and-settings-modification)
+when this is configured, the updates can only happen interactively.
+[See the --otp option](https://docs.npmjs.com/cli/v8/commands/npm-publish)
+
 ### PyPI
 
 PyPI has instructions to configure a security key
