@@ -33,7 +33,7 @@ To qualify, each token recipient must:
 1. Be a maintainer or contributor to this critical open source software (OSS)
    project, or to another OSS project that this project depends on
    (the dependency may be indirect).
-2. Try to use an MFA token once they receive the token.
+2. Try to use an MFA token to secure their GitHub Account once they receive the token.
    We'd like recipients to use MFA tokens from then on, but at least try.
 3. Not reuse the token between different people (the token must not be shared).
 4. Consider providing feedback to us (so we can try to fix problems).
