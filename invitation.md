@@ -67,12 +67,12 @@ To qualify, each token recipient must:
 4. Consider providing feedback to us (so we can try to fix problems).
 
 We also need each project that receives coupon codes and/or validation codes
-to tell us, within 30 days of getting the codes:
+to tell us these numbers (preferably within 30 days of getting the codes):
 
-1. How many of recipients didn't have an MFA hardware
-   token before, and
-2. How many people used the Google coupon codes to receive an MFA token
-   (we can separately get the total counts for the GitHub validation codes)
+1. How many tokens did you distribute from just Google? From just GitHub?
+2. How many people received tokens from just Google? From just GitHub? From both?
+3. How many people didn’t have hardware tokens they used for OSS who received tokens from just Google? From just GitHub? From both?
+
 
 We ask for this information so we can tell others some simple measures of success.
 We don't need nor want the names of any individuals participating.
