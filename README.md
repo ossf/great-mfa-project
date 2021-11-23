@@ -4,16 +4,16 @@ Welcome to the Great MFA Distribution Project
 (`great-mfa-project`).
 The goal of this project is to:
 
-1. Promote the use of multi-factor authentications through out all stages of Open Source Software development
+1. Promote the use of multi-factor authentications through out all stages of Open Source Software (OSS) development
 2. Distribute multi-factor authentication (MFA) tokens to
-   some developers of critical open source software (OSS), and
+   some developers of critical open source software, and
 2. Provide or point to information so help people *easily* use MFA tokens.
 
 The OpenSSF is working with Google and GitHub who have generously offered to provide and distribute MFA tokens.
 Thank you!
 
-These MFA tokens can be used in many applications in a developers workflow.  They help provide higer degrees
-of validation for a developer's identity when logging into code repositories or applications or performing 
+These MFA tokens can be used in many applications in a developers workflow.  They help provide higher degrees
+of validation for a developer's identity when logging into code repositories or applications, or performing 
 critical tasks such as signing code.
 
 ## How do I get an MFA token?
