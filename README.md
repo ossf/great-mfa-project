@@ -35,7 +35,7 @@ and aggregate totals from GitHub).
 
 ## How do I use an MFA token?
 
-We've developed some simple instructions for using MFA tokens
+We've developed some simple [instructions](guide/key-usage-guide.md) for using MFA tokens
 in common OSS situations.
 
 ### Titan
