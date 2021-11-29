@@ -5,10 +5,10 @@ token from GitHub.
 Note that tokens are also called "security keys" or "keys".
 
 It's easy.
-First, go to the [OpenSSF & GitHub MFA Enablement Form](https://forms.gle/zYLbdmGsgAFbeZr26) to enter your validation code into.
-your eligibility to this program via a verification code.
+First, go to the [OpenSSF & GitHub MFA Enablement Form](https://forms.gle/zYLbdmGsgAFbeZr26) and enter the validation code given o you by OpenSSF.
+We'll check your eligibility to this program via this verification code.
 
-A few days later you will receive a coupon code via email
+A few days later you will receive a coupon code via email from GitHub
 that will allow you to get
 a [GitHub branded Yubikey from their shop](https://thegithubshop.com/products/github-branded-yubikey?_pos=1&_sid=4893867a7&_ss=r)
 for free.
