@@ -35,25 +35,13 @@ and aggregate totals from GitHub).
 
 ## How do I use an MFA token?
 
-We've developed some simple [instructions](guide/key-usage-guide.md) for using MFA tokens
-in common OSS situations.
+For some simple instructions on how to use MFA tokens for common OSS
+situations see our [Key Usage Guide](guide/key-usage-guide.md).
 
-### Titan
-
-* How to setup on MacOS, Windows, Linux desktops
-* How to log into GitHub / GitLab
-* How to post a release to Python PyPI
-* How to post a release to JavaScript npm
-
-### Yubikey
+### Additional info
 
 [Yubikey Guide](http://github.com/drduh/YubiKey-Guide) is a relatively
 exhaustive guide.
-
-* How to setup on MacOS, Windows, Linux desktops
-* How to log into GitHub / GitLab
-* How to post a release to Python PyPI
-* How to post a release to JavaScript npm
 
 ## How we're doing this
 
