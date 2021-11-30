@@ -88,9 +88,10 @@ Here are examples:
 * Homebrew - [Holmes, E.: "How i gained commit access to homebrew in 30 minutes", 2018](https://medium.com/@vesirin/how-i-gained-commit-access-to-homebrew-in-30-minutes-2ae314df03ab)
 * Gentoo Linux - [Khandelwal, S. "Password-guessing was used to hack gentoo linux github account", 2017]( https://thehackernews.com/2018/07/github-hacking-gentoo-linux.html)
 
-MFA tokens don't counter all attacks (such as typosquatting), but by using tools such
-as Multi-factor Authentication, the likelihood that such bad actors 
-would be able to violate the integrity of that open source supply chain is greatly reduced.
+MFA tokens don't counter all attacks (such as typosquatting). Also the hardware tokens should not be left unguarded in untrusted spaces as there are known [side-channel attacks](https://www.zdnet.com/article/new-side-channel-attack-can-recover-encryption-keys-from-google-titan-security-keys/) existing against hardware tokens. 
+By using tools such as Multi-factor Authentication, the likelihood that such bad actors would be able to violate the integrity of that open source supply chain is greatly reduced.
+
+This will increase the level of security and protection for your project immensely but use your common sense. 
 
 ## Background information
 
