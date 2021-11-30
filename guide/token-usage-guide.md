@@ -2,6 +2,10 @@
 
 This is a guide to how to use multi-factor authentication (MFA) tokens,
 aka MFA keys.
+We focus here on Titan tokens and Yubikey tokens, as those are the kinds of
+tokens we are distributing to critical open source software (OSS)
+projects, but most of this information applies to other tokens as well.
+
 This guide was created by the Great MFA Distribution project,
 part of the OpenSSF.
 For an introduction to the project, see the [README](../README.md).
@@ -21,7 +25,8 @@ common OSS situations.
 * How to post a release to Javascript npm (TBD)
 * [How to protect your RubyGems login](#securing-your-rubygems-login)
 * [How to secure your SSH connections](#securing-your-ssh-connections)
-* [How to recover access](#token-lost-broken-misplaced-stolen)
+* [Token unavailable](#token-unavailable)
+* [Additional information](#additional-information)
 
 ### Token setup
 
@@ -104,17 +109,9 @@ device](https://docs.gitlab.com/ee/user/profile/account/two_factor_authenticatio
 
 At this time tokens that support FIDO cannot be directly used to commits on GitLab. Please add an upvote to [this discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/343879) to enable this feature. The FIDO token can be used to store your SSH key which can be used to push and pull repositories from GitLab. Instructions for using your FIDO token with SSH are included below.
 
-### NPM
-=======
 ### Securing your GitLab login
 
-Follow GitLab's instructions to protect your login using a [U2F
-  device](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html#u2f-device).
-
-<!-- not sure whether the following is supported the documentation on
-SSH doesn't list the SK types as being supported
-### Securing your GitLab connections
- -->
+Follow GitLab's instructions to protect your login using a [U2F device](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html#u2f-device).
 
 ### Securing your NPM connections
 
@@ -157,16 +154,29 @@ as well as logging into remote systems. Git version 2.34 and above
 supports signing commits with an SSH key, however GitHub and GitLab do
 not support verifying SSH signatures at this time.
 
-### Token lost broken misplaced stolen
-Most of the code repository platforms offer recovery methods to gain access
-to the account when you are dealing with a lost/broken/misplaced/stolen token.
-For example the most common default fail safe mechanism is the 
-secrets one time use codes that are automatically generated when you 
-enrolled your hardware token. Using this mechanism it’s utterly important to 
-store these secret one time use codes in a safe matter. You can achieve this by 
-printing them out and store them in a physical vault or use a digital secure password storage.
+### Token unavailable
 
-Also when you don’t like this approach there is also per platform other options.
-For example in [Github](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods#downloading-your-two-factor-authentication-recovery-codes) you can create a 
-fail safe mechanism that uses your Phone number and per SMS you can still gain access. 
-Other platforms like [GitLab](https://about.gitlab.com/blog/2018/08/09/keeping-your-account-safe/) offer a backup email address or using your SSH keys that are connected to the account you can generate new secrets one time use codes.
+Most of the code repository platforms offer recovery methods to gain access
+to the account when you are dealing with a token that has
+become unavailable (e.g., it has become lost, broken, misplaced, or stolen).
+For example the most common default fail-safe mechanism is the 
+secrets one time use codes that are automatically generated when you 
+enrolled your hardware token. Using this mechanism it’s
+*extremely* important to 
+store these secret one time use codes in a safe matter. You can achieve this by 
+printing them out and store them in a physical vault.
+You could also use a digital secure password storage, but then you need to
+make sure attackers can't access that.
+We suggest printing them out twice, storing one near you and another
+in a secure location far away from you (so that a fire in a building
+won't eliminate access).
+
+If you don’t like this approach there are often special per-platform options.
+For example, with [GitHub you can use your phone number and SMS](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods#downloading-your-two-factor-authentication-recovery-codes)
+to create a fail-safe mechanism to regain access to your account.
+[GitLab offers other fail-safe options](https://about.gitlab.com/blog/2018/08/09/keeping-your-account-safe/) - you can use a backup email address or use your SSH keys that are connected to the account to can generate new secret one time use codes.
+
+### Additional information
+
+The [Yubikey Guide](http://github.com/drduh/YubiKey-Guide) is a relatively
+exhaustive guide for Yubikeys.
