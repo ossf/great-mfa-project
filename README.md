@@ -12,6 +12,7 @@ The goal of this project is to:
 The OpenSSF is working with Google and GitHub who have generously offered to provide and distribute MFA tokens.
 Thank you!
 
+MFA tokens, also called keys, are hardware devices specifically for authentication.
 These MFA tokens can be used in many applications in a developers workflow.  They help provide higher degrees
 of validation for a developer's identity when logging into code repositories or applications, or performing 
 critical tasks such as signing code.
@@ -36,7 +37,7 @@ and aggregate totals from GitHub).
 ## How do I use an MFA token?
 
 For some simple instructions on how to use MFA tokens for common OSS
-situations see our [Key Usage Guide](guide/key-usage-guide.md).
+situations see our [Token Usage Guide](guide/token-usage-guide.md).
 
 ### Additional info
 

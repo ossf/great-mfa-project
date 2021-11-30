@@ -1,8 +1,12 @@
-# The Great MFA Distribution Project
+# Token Usage Guide
 
+This is a guide to how to use multi-factor authentication (MFA) tokens,
+aka MFA keys.
+This guide was created by the Great MFA Distribution project,
+part of the OpenSSF.
 For an introduction to the project, see the [README](../README.md).
 
-## How to use your key
+## How to use your MFA token (key)
 
 This documentation provides instructions on how to use an MFA token in
 common OSS situations.
@@ -21,7 +25,7 @@ common OSS situations.
 
 ### Token setup
 
-Both the Titan Key and Yubikey support the FIDO standard. FIDO keys
+Both the Titan token and Yubikey support the FIDO standard. FIDO keys
 generally do not require any special setup on modern systems. Some of
 the steps listed below may require newer versions of utilities or
 libraries, versions will be specified when appropriate.
@@ -59,7 +63,7 @@ Key enrollment failed: unknown or unsupported key type
 
 -->
 
-You can test your key by visiting the [yubico demo site](https://demo.yubico.com/webauthn-technical/registration). It is expected this test will work on any modern operationg system and updated web browser. Even though the test site is hosted by yubico, any FIDO key can be tested.
+You can test your token by visiting the [yubico demo site](https://demo.yubico.com/webauthn-technical/registration). It is expected this test will work on any modern operationg system and updated web browser. Even though the test site is hosted by yubico, any FIDO key can be tested.
 
 Assuming your test worked, please continue with the following instructions.
 
@@ -79,7 +83,6 @@ account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 If you already had an SSH key set up to access your GitHub account you
 need to remove it from your GitHub account to make sure you are using
 your new key.
->>>>>>> b324bd0 (Expand Key Usage Guide)
 
 Once this is done issuing a `git push` command should ask for a
 confirmation with a message such as: `Confirm user presence for key
@@ -91,7 +94,7 @@ GitHub has instructions for enabling a security key for logging into the website
 * [Configuring two-factor authentication using a security
 key](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-security-key)
 
-At this time FIDO keys cannot be used to commits on GitHub. Please add an upvote to [this discussion](https://github.com/github/feedback/discussions/7744) to enable this feature. The FIDO key can be used to store your SSH key which can be used to push and pull repositories from GitHub. Instructions for using your FIDO key with SSH are included below.
+At this time, tokens that support FIDO cannot be directly used to commits on GitHub. Please add an upvote to [this discussion](https://github.com/github/feedback/discussions/7744) to enable this feature. The FIDO token can be used to store your SSH key which can be used to push and pull repositories from GitHub. Instructions for using your FIDO token with SSH are included below.
 
 ### GitLab
 
@@ -99,7 +102,7 @@ GitLab has instructions for configuring a security key for logging into the webs
 * [WebAuthn
 device](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html#webauthn-device)
 
-At this time FIDO keys cannot be used to commits on GitLab. Please add an upvote to [this discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/343879) to enable this feature. The FIDO key can be used to store your SSH key which can be used to push and pull repositories from GitLab. Instructions for using your FIDO key with SSH are included below.
+At this time tokens that support FIDO cannot be directly used to commits on GitLab. Please add an upvote to [this discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/343879) to enable this feature. The FIDO token can be used to store your SSH key which can be used to push and pull repositories from GitLab. Instructions for using your FIDO token with SSH are included below.
 
 ### NPM
 =======
@@ -114,7 +117,6 @@ SSH doesn't list the SK types as being supported
  -->
 
 ### Securing your NPM connections
->>>>>>> b324bd0 (Expand Key Usage Guide)
 
 NPM does not support security keys at this time. To use MFA you must use an authenticator app.
 * [Configuring two-factor
