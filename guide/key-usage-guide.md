@@ -17,7 +17,7 @@ common OSS situations.
 * How to post a release to Javascript npm (TBD)
 * [How to protect your RubyGems login](#securing-your-rubygems-login)
 * [How to secure your SSH connections](#securing-your-ssh-connections)
-
+* [How to recover access](#token-lost-broken-misplaced-stolen)
 
 ### Token setup
 
@@ -154,3 +154,17 @@ This SSH key can then be used to push and pull from Git repositories
 as well as logging into remote systems. Git version 2.34 and above
 supports signing commits with an SSH key, however GitHub and GitLab do
 not support verifying SSH signatures at this time.
+
+### Token lost broken misplaced stolen
+Most of the code repository platforms offer recovery methods to gain access
+to the account when you are dealing with a lost/broken/misplaced/stolen token.
+For example the most common default fail safe mechanism is the 
+secrets one time use codes that are automatically generated when you 
+enrolled your hardware token. Using this mechanism it’s utterly important to 
+store these secret one time use codes in a safe matter. You can achieve this by 
+printing them out and store them in a physical vault or use a digital secure password storage.
+
+Also when you don’t like this approach there is also per platform other options.
+For example in [Github](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods#downloading-your-two-factor-authentication-recovery-codes) you can create a 
+fail safe mechanism that uses your Phone number and per SMS you can still gain access. 
+Other platforms like [GitLab](https://about.gitlab.com/blog/2018/08/09/keeping-your-account-safe/) offer a backup email address or using your SSH keys that are connected to the account you can generate new secrets one time use codes.
