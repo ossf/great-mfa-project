@@ -75,10 +75,11 @@ individuals participating.
 
 Please note that the tokens are shipped from the US, so while they
 can be shipped internationally, we can't ship somewhere if that is
-[forbidden (sanctioned) under US law](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information).
+forbidden (sanctioned) under US law
 So at this time we are unable to ship to individuals in China,
 Afghanistan, Russia, Ukraine, North Korea, Iran, Sudan, and Syria.
 Sorry about that.
+More information is here: <https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information>
 
 For more information including how-tos and other setup information can be found at the
 "Great Multi-Factor Authentication (MFA) Distribution Project" site:
