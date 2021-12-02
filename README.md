@@ -39,11 +39,6 @@ and aggregate totals from GitHub).
 For some simple instructions on how to use MFA tokens for common OSS
 situations see our [Token Usage Guide](guide/token-usage-guide.md).
 
-### Additional info
-
-[Yubikey Guide](http://github.com/drduh/YubiKey-Guide) is a relatively
-exhaustive guide.
-
 ## How we're doing this
 
 Here is our basic plan:
