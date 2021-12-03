@@ -48,7 +48,7 @@ Here is our basic plan:
   2021-12-02, since the Google coupon codes expire on 2021-12-31.
 * We'll also develop a set of simple documents on how to use these tokens
   for common OSS cases, by 2021-12-02
-* Identified critical OSS projects will be sent at [invitation](./invitation.md) by one of the great-mfa-plan notifiers (e.g., John Naulty, David A. Wheeler), typically by filing an issue, in 2021-12-02..09.
+* Identified critical OSS projects will be sent at [invitation](./invitation.txt) by one of the great-mfa-plan notifiers (e.g., John Naulty, David A. Wheeler), typically by filing an issue, in 2021-12-02..09.
 * When a project accepts, the notifier will tell a sender (David A. Wheeler or Jory Burson) key information: the project who has accepted, the email address to send private information to, and how the project accepted. The sender will then send the project the coupon codes and validation codes using the [coupon_sending.md](./coupon_sending.md) template. This is 2021-12-03..31.
 * Projects distribute the codes. Receivers use them to get the tokens from
   the Google Store or GitHub shop. Then the tokens get used!
