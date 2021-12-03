@@ -16,7 +16,7 @@ We'd like to give your project *free* multi-factor authentication (MFA) hardware
 
 By **2021-12-20** and preferably much sooner, let us know how many you'd like. We can provide your project up to 5 Titan tokens from Google and up to 5 Yubikey tokens from GitHub.  If you could use more, please let us know that too. We know many projects could use more, and we may be able to provide more at some point. In your response, tell us an email address where we can *privately* send you the coupon codes and validation codes needed to get the tokens.
 
-We would send you coupon codes and validation codes to the private email address. You would send then distribute those codes to the maintainers you choose. The recipients would use the coupon codes and validation codes to "buy" the tokens from the Google Store and/or GitHub Shop, who would ship the tokens directly to recipients.  These codes are use-once, so. make sure you can keep the codes private until they're used by the intended person.
+We would send you coupon codes and validation codes to the private email address. You would then distribute those codes to the maintainers you choose. The recipients would use the coupon codes and validation codes to "buy" the tokens from the Google Store and/or GitHub Shop, who would ship the tokens directly to recipients.  These codes are use-once, so. make sure you can keep the codes private until they're used by the intended person.
 
 **Important**: The Google coupon codes **must be used by 2021-12-31** on the Google Store or they expire.
 
