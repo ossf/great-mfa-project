@@ -23,10 +23,10 @@ along with other tools and techniques help improve the security and assurance of
 A: Yes!
 
 ## Q: I got my token, but i can’t get it to work.  What can I do?
-A: 
+A:  Please see our guidance documentation for various cases.
 
 ## Q: I set my MFA token up and started using it, but it has subsequently been lost/broken/misplaced/stolen.  What should I do?
-A: 
+A:  Please see our guidance documentation. As noted there, when you set up using your token you should also set up a mechanism to deal with those cases.
 
 
 
