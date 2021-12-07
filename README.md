@@ -42,14 +42,20 @@ situations see our [Token Usage Guide](guide/token-usage-guide.md).
 ## How we're doing this
 
 Here is our basic plan:
-* Using a list of about 100 critical open source software (OSS) projects
-  as identified by the [OpenSSF Securing Critical Projects Working Group](https://github.com/ossf/wg-securing-critical-projects); see
-  [their current list](https://docs.google.com/spreadsheets/d/1ONZ4qeMq8xmeCHX03lIgIYE4MEXVfVL6oj05lbuXTDM/edit#gid=0). We'll use the version as of
-  2021-12-02, since the Google coupon codes expire on 2021-12-31.
-* We'll also develop a set of simple documents on how to use these tokens
-  for common OSS cases, by 2021-12-02
-* Identified critical OSS projects will be sent at [invitation](./invitation.txt) by one of the great-mfa-plan notifiers (e.g., John Naulty, David A. Wheeler), typically by filing an issue, in 2021-12-02..09.
-* When a project accepts, the notifier will tell a sender (David A. Wheeler or Jory Burson) key information: the project who has accepted, the email address to send private information to, and how the project accepted. The sender will then send the project the coupon codes and validation codes using the [coupon_sending.md](./coupon_sending.md) template. This is 2021-12-03..31.
+* Create a list of about 100 critical open source software (OSS) projects.
+  This was determined by the [OpenSSF Securing Critical Projects Working Group](https://github.com/ossf/wg-securing-critical-projects).
+  [Here is the list of critical OSS projects and who will be notifying them from the Great MFA Distribution Project](https://docs.google.com/spreadsheets/d/1sO_tJ_B7_2I-TUx23pnBoIRJIqaOm8yBnKAwqs7DwBw/edit#gid=0).
+  The list of projects is the same as the list of
+  [critical OSS projects identified by the critical projects WG by 2021-12-02](https://docs.google.com/spreadsheets/d/1ONZ4qeMq8xmeCHX03lIgIYE4MEXVfVL6oj05lbuXTDM/edit#gid=0). We're currently using the version as of
+  2021-12-02, because the Google coupon codes expire on 2021-12-31.
+* Develop a set of simple documents on how to use these tokens
+  for common OSS cases. First drafts were done 2021-12-02, but we'll
+  keep refining them.
+* Send an [invitation](./invitation.txt) to each critical OSS project. This will be done by one of the great-mfa-plan notifiers, typically by filing an issue, in 2021-12-02..09.
+  The current Great MFA Distribution Project notifiers are
+  David A. Wheeler, Xavier Rene-Corail, Marta Rybczynska,
+  CRob (@SecurityRob), John Naulty, Arnaud J Le Hors, and Glenn ten Cate.
+* If a project accepts, the notifier will tell a sender (David A. Wheeler or Jory Burson) key information: the project who has accepted, the email address to send private information to, and how the project accepted. The sender will then send the project the coupon codes and validation codes using the [coupon_sending.md](./coupon_sending.md) template. This is 2021-12-03..31.
 * Projects distribute the codes. Receivers use them to get the tokens from
   the Google Store or GitHub shop. Then the tokens get used!
 * Projects send back some information, that we combine with other data
