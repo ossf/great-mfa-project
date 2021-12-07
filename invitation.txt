@@ -4,27 +4,30 @@
 
 The following draft text is an invitation to a critical project
 to request MFA tokens. In most cases these would be created
-as an issue on the project's GitHub/GitLab/etc. page, or sent as
-an email to their security contact email address.
+as either (1) an issue on the project's GitHub/GitLab/etc. repo site, or
+(2) an email to their security contact email address.
+Note: If you're sending this as email, send it as *plain* text,
+because some people may reject HTML emails as likely spam.
 
 Improvements welcome!
 
 ## Invitation text
 
-Hello! I am <YOUR NAME> and I work with the
-Developer Best Practices Working Group
-of the Linux Foundation's Open Source Security Foundation (OpenSSF) at
+Hi! I work with the Developer Best Practices Working Group
+of the Linux Foundation's Open Source Security Foundation (OpenSSF)
 <https://github.com/ossf/wg-best-practices-os-developers>
+"Great Multi-Factor Authentication (MFA) Distribution Project"
+<https://github.com/ossf/great-mfa-project>.
 
 We'd like to give your project *free*
-multi-factor authentication (MFA) hardware tokens from Google and GitHub,
+MFA hardware tokens from Google and GitHub,
 for use by your maintainers.
 We'd especially like to give them to any of your maintainers
 who aren't already using any.
-This is part of the "The Great MFA Distribution Project"
-<https://github.com/ossf/great-mfa-project> for
-developers of open source software (OSS)/Free Software to improve
-confidence in authentication and integrity of code being delivered.
+Our goal is to help improve the security of
+open source software (OSS)/Free Software projects.
+For example, these tokens can counter attacks that release source code
+updates and/or packages using stolen passwords.
 
 By **2021-12-20** and preferably much sooner,
 let us know how many you'd like.
@@ -49,6 +52,11 @@ intended person.
 **Important**: The Google coupon codes **must be used by 2021-12-31** on
 the Google Store or they expire.
 
+How can you trust us? You don't need to. You would get the MFA tokens
+from Google and GitHub; we're simply offering codes to make them no-cost.
+We'll provide some documentation on how to use them, but you don't need
+to use our documents.
+
 To qualify, each token recipient must:
 
 1. Be a maintainer or contributor to this critical open source software (OSS)
@@ -63,20 +71,28 @@ We also need each project that receives coupon codes and/or validation codes
 to tell us these numbers (preferably within 30 days of getting the codes):
 
 1. How many tokens did you distribute from just Google? From just GitHub?
-2. How many people received tokens from just Google? From just GitHub? From both?
-3. How many people didn’t have hardware tokens they used for OSS who received tokens from just Google? From just GitHub? From both?
+2. How many people received tokens from just Google? From just GitHub?
+   From both?
+3. How many people didn’t have hardware tokens they used for OSS who
+   received tokens from just Google? From just GitHub? From both?
 
 We ask for this information so we can tell others some simple
 measures of success. We don't need nor want the names of any
-individuals participating.
+individuals participating. It's fine to ask the people who got the codes
+for that information and provide a best-effort summary.
 
-Please note that the tokens are shipped from the US, so while they
-can be shipped internationally, we can't ship somewhere if that is
-forbidden (sanctioned) under US law
+The MFA tokens are shipped from the US.
+They can be shipped internationally, but there are various limitations on
+where each can be shipped.
+
+In particular, we can't ship somewhere if that is
+forbidden (sanctioned) under US law.
 So at this time we are unable to ship to individuals in China,
 Afghanistan, Russia, Ukraine, North Korea, Iran, Sudan, and Syria.
 Sorry about that.
-More information is here: <https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information>
+See the Google and GitHub sites for more shipping information.
+More sanction information is available at
+<https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information>
 
 For more information including how-tos and other setup information can be found at the
 "Great Multi-Factor Authentication (MFA) Distribution Project" site:
