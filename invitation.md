@@ -12,7 +12,13 @@ Hi! I work with the [Developer Best Practices Working Group](https://github.com/
 
 We'd like to give your project *free* MFA hardware tokens from Google and GitHub, for use by your maintainers.  We'd especially like to give them to any of your maintainers who aren't already using any.  Our goal is to help improve the security of open source software (OSS)/Free Software projects.  For example, these tokens can counter attacks that release source code updates and/or packages using stolen passwords.
 
-By **2021-12-20** and preferably much sooner, let us know how many you'd like.  We can provide your project up to 5 Titan tokens from Google and up to 5 Yubikey tokens from GitHub.  If you could use more, please let us know that too. We know many projects could use more, and we may be able to provide more at some point.  In your response, tell us an email address where we can *privately* send you the coupon codes and validation codes needed to get the tokens.
+By **2021-12-20** and preferably much sooner, please let me know:
+
+1. If you want any tokens, and if so...
+2. How many Titan tokens from Google (up to 5)
+3. How let Yubikey tokens from GitHub (up to 5)
+4. The *private* email address to send codes to (this email must *not* go to the public, as these are use-once codes can be used to get the tokens)
+5. If you could use more, how many more.
 
 We would send you coupon codes and validation codes to the private email address.  You would then distribute those codes to the maintainers you choose.  The recipients would use the coupon codes and validation codes to "buy" the tokens from the Google Store and/or GitHub Shop, who would ship the tokens directly to recipients.  These codes are use-once, so make sure you can keep the codes private until they're used by the intended person.
 
