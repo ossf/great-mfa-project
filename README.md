@@ -53,8 +53,12 @@ Here is our basic plan:
   keep refining them.
 * Send an [invitation](./invitation.txt) to each critical OSS project. This will be done by one of the great-mfa-plan notifiers, typically by filing an issue, in 2021-12-02..09.
   The current Great MFA Distribution Project notifiers are
-  David A. Wheeler, Xavier Rene-Corail, Marta Rybczynska,
-  CRob (@SecurityRob), John Naulty, Arnaud J Le Hors, and Glenn ten Cate.
+  David A. Wheeler (Linux Foundation), Xavier Rene-Corail (GitHub),
+  Marta Rybczynska (Syslinbit),
+  CRob (@SecurityRob) (Intel), John Naulty (Coinbase),
+  Arnaud J Le Hors (IBM), Glenn ten Cate (OWASP), and
+  Georg Kunz (Ericsson).
+  Note: Organizational affiliations are *only* shown to clarify who we mean.
 * If a project accepts, the notifier will tell a sender (David A. Wheeler or Jory Burson) key information: the project who has accepted, the email address to send private information to, and how the project accepted. The sender will then send the project the coupon codes and validation codes using the [coupon_sending.md](./coupon_sending.md) template. This is 2021-12-03..31.
 * Projects distribute the codes. Receivers use them to get the tokens from
   the Google Store or GitHub shop. Then the tokens get used!
