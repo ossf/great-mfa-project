@@ -13,7 +13,7 @@ Improvements welcome!
 
 ## Sending coupon and validation code text
 
-Thanks so much for being willing to use these free
+Thanks so much for being willing to use these 
 *free* multi-factor authentication (MFA) hardware tokens!
 
 Below are the coupon codes for the Google Titan tokens and/or
