@@ -54,7 +54,7 @@ Here is our basic plan:
 * Send an [invitation](./invitation.txt) to each critical OSS project. This will be done by one of the great-mfa-plan notifiers, typically by filing an issue, in 2021-12-02..09.
   The current Great MFA Distribution Project notifiers are
   David A. Wheeler (Linux Foundation), Xavier Rene-Corail (GitHub),
-  Marta Rybczynska (Syslinbit),
+  Jose Palafox (GitHub), Marta Rybczynska (Syslinbit),
   CRob (@SecurityRob) (Intel), John Naulty (Coinbase),
   Arnaud J Le Hors (IBM), Glenn ten Cate (OWASP), and
   Georg Kunz (Ericsson).
