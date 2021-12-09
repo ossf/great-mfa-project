@@ -16,8 +16,8 @@ By **2021-12-20** and preferably much sooner, please let me know:
 
 1. If you want any tokens, and if so...
 2. How many Titan tokens from Google (up to 5)
-3. How let Yubikey tokens from GitHub (up to 5)
-4. The *private* email address to send codes to (this email must *not* go to the public, as these are use-once codes can be used to get the tokens)
+3. How many Yubikey tokens from GitHub (up to 5)
+4. The *private* email address to send codes to (this email must *not* go to the public, as these are use-once codes that can be used to get the tokens)
 5. If you could use more, how many more.
 
 We would send you coupon codes and validation codes to the private email address.  You would then distribute those codes to the maintainers you choose.  The recipients would use the coupon codes and validation codes to "buy" the tokens from the Google Store and/or GitHub Shop, who would ship the tokens directly to recipients.  These codes are use-once, so make sure you can keep the codes private until they're used by the intended person.
