@@ -90,7 +90,7 @@ communities develop each day.
 The
 ["Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attack" by Ohm et al](https://arxiv.org/abs/2005.09535)
 noted that this is one way to subvert OSS, e.g.,
-its source code (in a force) or its package (in a package repository).
+its source code (in a forge) or its package (in a package repository).
 Here are examples:
 
 * coa and rc - ["Malware found in coa and rc, two npm packages with 23M weekly downloads", 2021-11-05](https://therecord.media/malware-found-in-coa-and-rc-two-npm-packages-with-23m-weekly-downloads/)
