@@ -53,26 +53,31 @@ Here is our basic plan:
 * Develop a set of simple documents on how to use these tokens
   for common OSS cases. First drafts were done 2021-12-02, but we'll
   keep refining them.
-* Send an [invitation](./invitation.txt) to each critical OSS project. This will be done by one of the great-mfa-plan notifiers, typically by filing an issue, in 2021-12-02..09.
-  The current Great MFA Distribution Project notifiers are
-  David A. Wheeler (Linux Foundation), Xavier Rene-Corail (GitHub),
-  Jose Palafox (GitHub), Marta Rybczynska (Syslinbit),
-  CRob (@SecurityRob) (Intel), John Naulty (Coinbase),
-  Arnaud J Le Hors (IBM), Glenn ten Cate (OWASP),
-  Georg Kunz (Ericsson), and Jory Burson (Linux Foundation).
-  Note: Organizational affiliations are *only* shown to clarify who we mean.
+* Send an [invitation](./invitation.txt) to each critical OSS project. This will be done by one of the great-mfa-plan notifiers, typically by filing an issue, in 2021-12-02..10. The current Great MFA Distribution Project notifiers, with GitHub/GitLab account names and organizational affiliations, are:
+  - David A. Wheeler (@david-a-wheeler/@david-a-wheeler) (Linux Foundation),
+  - CRob (@SecurityRob) (Intel),
+  - Xavier Rene-Corail (@xcorail) (GitHub),
+  - John Naulty (@jnaulty) (Coinbase),
+  - Jose Palafox (@josepalafox) (GitHub),
+  - Marta Rybczynska (Syslinbit),
+  - Arnaud J Le Hors (@lehors) (IBM),
+  - Glenn ten Cate (@blabla1337) (OWASP),
+  - Georg Kunz (@gkunz) (Ericsson), and
+  - Jory Burson (@jorydotcom) (Linux Foundation).
 * If a project accepts, the notifier will tell a sender (David A. Wheeler or Jory Burson) key information: the project who has accepted, the email address to send private information to, and how the project accepted. The sender will then send the project the coupon codes and validation codes using the [coupon_sending.md](./coupon_sending.md) template. This is 2021-12-03..31.
 * Projects distribute the codes. Receivers use them to get the tokens from
   the Google Store or GitHub shop. Then the tokens get used!
 * Projects send back some information, that we combine with other data
   and determine whether or not we've had a positive effect (hopefully we have!).
 
-You can see the draft document
-[*The Great MFA Distribution Plan*](https://docs.google.com/document/d/1Hhg4KcLCzEdd9ZcbdEviN0TIUTLyWDsIdF6B_hY3Xv0/edit) if you want to see more detail.
+Note: Organizational affiliations are *only* shown to clarify who we mean.
+
 We've taken some steps to make sure this does *not* turn into
-the "world's best supply chain attack"; see our
+the "world's best supply chain attack". See our
 [security rationale](./security-rationale.md).
 We also want to ensure this isn't just a "token effort".
+You can see the now-obsolete draft document
+[*The Great MFA Distribution Plan*](https://docs.google.com/document/d/1Hhg4KcLCzEdd9ZcbdEviN0TIUTLyWDsIdF6B_hY3Xv0/edit) if you want to see more detail.
 
 
 ## Why are we doing this?
