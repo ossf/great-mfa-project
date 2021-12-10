@@ -4,22 +4,24 @@ Welcome to the Great MFA Distribution Project
 (`great-mfa-project`).
 The goal of this project is to:
 
-1. Promote the use of multi-factor authentications through out all stages of Open Source Software (OSS) development
-2. Distribute multi-factor authentication (MFA) tokens to
+1. Promote the use of multi-factor authentication (MFA) through out all stages of Open Source Software (OSS) development
+2. Distribute MFA tokens to
    some developers of critical open source software, and
-2. Provide or point to information so help people *easily* use MFA tokens.
+3. Provide or point to information to help people *easily* use MFA tokens.
 
 The OpenSSF is working with Google and GitHub who have generously offered to provide and distribute MFA tokens.
 Thank you!
 
-MFA tokens, also called keys, are hardware devices specifically for authentication.
+MFA tokens, also called keys or fobs, are hardware devices specifically for authentication.
 These MFA tokens can be used in many applications in a developers workflow.  They help provide higher degrees
 of validation for a developer's identity when logging into code repositories or applications, or performing 
 critical tasks such as signing code.
+Attackers generally find it much harder to take over an account authenticated with an MFA token compared to an account authenticated with only a password;
+see [why we are doing this](#why-we-ard-doing-this) for more information.
 
 ## How do I get an MFA token?
 
-If your open source software (OSS) project has notified you that
+If your open source software (OSS) project has been notified that
 you're getting a free token from us,
 you'll receive a Google coupon code or a GitHub validation code.
 Here are step-by-step instructions:
