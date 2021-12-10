@@ -28,7 +28,7 @@ of the recipients. The OpenSSF is asking projects to report back
 summary metrics. GitHub will learn the GitHub accounts of those who
 use the validation codes, but GitHub will only share totals
 back to the OpenSSF.
-We this it's reasonable that someone who is willing to create an
+We think it's reasonable that someone who is willing to create an
 account on GitHub and use GitHub to manage their code is also willing
 to trust GitHub.
 
