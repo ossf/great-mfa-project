@@ -5,15 +5,14 @@ Welcome to the Great MFA Distribution Project
 The goal of this project is to:
 
 1. Promote the use of multi-factor authentication (MFA) through out all stages of Open Source Software (OSS) development
-2. Distribute MFA tokens to
-   some developers of critical open source software, and
+2. Distribute MFA tokens to some developers of critical OSS, and
 3. Provide or point to information to help people *easily* use MFA tokens.
 
 The OpenSSF is working with Google and GitHub who have generously offered to provide and distribute MFA tokens.
 Thank you!
 
 MFA tokens, also called keys or fobs, are hardware devices specifically for authentication.
-These MFA tokens can be used in many applications in a developers workflow.  They help provide higher degrees
+These MFA tokens can be used in many applications in a developer's workflow.  They help provide higher degrees
 of validation for a developer's identity when logging into code repositories or applications, or performing 
 critical tasks such as signing code.
 Attackers generally find it much harder to take over an account authenticated with an MFA token compared to an account authenticated with only a password;
@@ -47,7 +46,7 @@ Here is our basic plan:
 * Create a list of about 100 critical open source software (OSS) projects.
   [Here is the list of critical OSS projects and who will be notifying them from the Great MFA Distribution Project](https://docs.google.com/spreadsheets/d/1sO_tJ_B7_2I-TUx23pnBoIRJIqaOm8yBnKAwqs7DwBw/edit#gid=0).
   For more information, see the section below on
-  [how this list critical OSS projects were selected](#how-were-critical-oss-projects-selected).
+  [how this collection of critical OSS projects were selected](#how-were-critical-oss-projects-selected).
 * Develop a set of simple documents on how to use these tokens
   for common OSS cases. First drafts were done 2021-12-02, but we'll
   keep refining them.
@@ -100,14 +99,14 @@ Here are examples:
 * Gentoo Linux - [Khandelwal, S. "Password-guessing was used to hack gentoo linux github account", 2017]( https://thehackernews.com/2018/07/github-hacking-gentoo-linux.html)
 
 MFA tokens don't counter all attacks (such as typosquatting). Also the hardware tokens should not be left unguarded in untrusted spaces as there are known [side-channel attacks](https://www.zdnet.com/article/new-side-channel-attack-can-recover-encryption-keys-from-google-titan-security-keys/) existing against hardware tokens. 
-By using tools such as Multi-factor Authentication, the likelihood that such bad actors would be able to violate the integrity of that open source supply chain is greatly reduced.
+Still, by using tools such as Multi-factor Authentication, the likelihood that bad actors will be able to violate the integrity of that open source supply chain is greatly reduced.
 
-This will increase the level of security and protection for your project immensely but use your common sense. 
+This will increase the level of security and protection for your project immensely, but use your common sense. 
 
 ## How were critical OSS projects selected?
 
 For our purposes, a critical OSS project is an OSS project that can have
-an especially large impact if it has a significant unintentional vulnerability
+an especially large impact if it has a significant unintentional vulnerability,
 or if it is subverted in either its source repository or
 distribution package(s).
 There are literally millions of open source software (OSS) projects today,
@@ -120,9 +119,9 @@ This OpenSSF working group has been *specifically* working on this problem!
 
 There are many ways to identify "critical" projects, so the
 Securing Critical Projects WG combined the results of several different
-analyses (each analyses are also called "Selection Criteria"),
+analyses (the analyses are also called "Selection Criteria"),
 The WG then used human group review of this combined set of top candidates
-to create a final defensible list. The analysis ("selection criteria") for
+to create a final defensible list. The analyses ("selection criteria") for
 identifying candidate critical OSS projects included:
 
 * [OpenSSF Criticality Score](https://github.com/ossf/criticality_score): A top OpenSSF criticality score value. This metric prefers projects that are extremely active on specific forges. Such projects are likely to be important (at least to the participants). However, this is not a perfect measure; some projects will score low here and yet be very critical. Also, it currently only considers GitHub-hosted projects. As of 2021-11-23 the projects with the top scores are node, kubernetes, rust, and spark.
