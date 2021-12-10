@@ -45,11 +45,9 @@ situations see our [Token Usage Guide](guide/token-usage-guide.md).
 
 Here is our basic plan:
 * Create a list of about 100 critical open source software (OSS) projects.
-  This was determined by the [OpenSSF Securing Critical Projects Working Group](https://github.com/ossf/wg-securing-critical-projects).
   [Here is the list of critical OSS projects and who will be notifying them from the Great MFA Distribution Project](https://docs.google.com/spreadsheets/d/1sO_tJ_B7_2I-TUx23pnBoIRJIqaOm8yBnKAwqs7DwBw/edit#gid=0).
-  The list of projects is the same as the list of
-  [critical OSS projects identified by the critical projects WG by 2021-12-02](https://docs.google.com/spreadsheets/d/1ONZ4qeMq8xmeCHX03lIgIYE4MEXVfVL6oj05lbuXTDM/edit#gid=0). We're currently using the version as of
-  2021-12-02, because the Google coupon codes expire on 2021-12-31.
+  For more information, see the section below on
+  [how this list critical OSS projects were selected](#how-were-critical-oss-projects-selected).
 * Develop a set of simple documents on how to use these tokens
   for common OSS cases. First drafts were done 2021-12-02, but we'll
   keep refining them.
@@ -105,6 +103,61 @@ MFA tokens don't counter all attacks (such as typosquatting). Also the hardware 
 By using tools such as Multi-factor Authentication, the likelihood that such bad actors would be able to violate the integrity of that open source supply chain is greatly reduced.
 
 This will increase the level of security and protection for your project immensely but use your common sense. 
+
+## How were critical OSS projects selected?
+
+For our purposes, a critical OSS project is an OSS project that can have
+an especially large impact if it has a significant unintentional vulnerability
+or if it is subverted in either its source repository or
+distribution package(s).
+There are literally millions of open source software (OSS) projects today,
+making it difficult to create a focused list of "critical OSS projects".
+
+The list of critical OSS projects was developed for the Great MFA Distribution
+Project by the
+[OpenSSF Securing Critical Projects Working Group (WG)](https://github.com/ossf/wg-securing-critical-projects).
+This OpenSSF working group has been *specifically* working on this problem!
+
+There are many ways to identify "critical" projects, so the
+Securing Critical Projects WG combined the results of several different
+analyses (each analyses are also called "Selection Criteria"),
+The WG then used human group review of this combined set of top candidates
+to create a final defensible list. The analysis ("selection criteria") for
+identifying candidate critical OSS projects included:
+
+* [OpenSSF Criticality Score](https://github.com/ossf/criticality_score): A top OpenSSF criticality score value. This metric prefers projects that are extremely active on specific forges. Such projects are likely to be important (at least to the participants). However, this is not a perfect measure; some projects will score low here and yet be very critical. Also, it currently only considers GitHub-hosted projects. As of 2021-11-23 the projects with the top scores are node, kubernetes, rust, and spark.
+* [Census Program II](https://www.coreinfrastructure.org/programs/census-program-ii/): Harvard preliminary analysis, uses SCA & dependency data. This tends to emphasize lower-level libraries that are depended on, transitively, by many.
+* OSTIF Managed Audit Program: Programs OSTIF has recommended for audit. These were selected earlier from research sources, focusing on securing the most critical projects. You can see the [OSTIF Managed Audit Program (MAP25)](https://docs.google.com/spreadsheets/d/1oytKuD7UCX6nDXWQMr6ZgYYgap_SH_JVBof5gNrgSxo/edit#gid=0)
+* [Top Google Project](https://opensource.google/projects/list/featured):	Featured on Google Open Source page and widely adopted.
+* [Top Microsoft Project](https://opensource.microsoft.com/projects/): Featured on Microsoft Open Source page and widely adopted.
+* [Top Linux Foundation Project](https://www.linuxfoundation.org/projects/): 	Featured on Linux Foundation Project page and related to supply chains.
+*  Secure Supply Chain Tool: Directly related to supply chain security (identified by WG)
+* Survey Response: [Response to public survey](https://forms.gle/19PKPS17zkL5fTFUA)
+* Language implementation: Identified by community as a widely-used language implementation
+* Community Addition: Separately identified by the community as important.
+* Previously subverted: If software has been previously attacked & it made headlines, it must be critical enough to attack.
+
+Every method for identify critical OSS projects has its strengths and
+weaknesses; we believe the combination of analysis combined with human review
+is better than trying to do any one of them.
+For example, high criticality score tends to emphasize very busy projects;
+human review can remove projects that are busy but for whatever reason
+are less critical.
+Some projects are very important yet not active; by using other measures
+(not just the OpenSSF criticality score) we can still identify them.
+
+We have no doubt that other OSS projects will be added to the
+critical OSS projects list over time. If you're interested in helping
+to do that, please join the Securing Critical Projects WG.
+
+[Here is the list of critical OSS projects and who will be notifying them from the Great MFA Distribution Project](https://docs.google.com/spreadsheets/d/1sO_tJ_B7_2I-TUx23pnBoIRJIqaOm8yBnKAwqs7DwBw/edit#gid=0).
+that this list of projects is the same as the list of
+  [critical OSS projects identified by the critical projects WG by 2021-12-02](https://docs.google.com/spreadsheets/d/1ONZ4qeMq8xmeCHX03lIgIYE4MEXVfVL6oj05lbuXTDM/edit#gid=0). We're currently using the version as of
+2021-12-02, because the Google coupon codes expire on 2021-12-31.
+Even if they didn't expire, though, we think it's wiser to quickly get tokens
+we have available to critical projects.
+The sooner the tokens start getting used by developers, the sooner we
+counter some attacks on critical projects.
 
 ## Background information
 
