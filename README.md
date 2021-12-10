@@ -60,7 +60,7 @@ Here is our basic plan:
   - Marta Rybczynska (Syslinbit),
   - Arnaud J Le Hors (@lehors) (IBM),
   - Glenn ten Cate (@blabla1337) (OWASP),
-  - Georg Kunz (Ericsson), and
+  - Georg Kunz (@gkunz) (Ericsson), and
   - Jory Burson (@jorydotcom) (Linux Foundation).
 * If a project accepts, the notifier will tell a sender (David A. Wheeler or Jory Burson) key information: the project who has accepted, the email address to send private information to, and how the project accepted. The sender will then send the project the coupon codes and validation codes using the [coupon_sending.md](./coupon_sending.md) template. This is 2021-12-03..31.
 * Projects distribute the codes. Receivers use them to get the tokens from
