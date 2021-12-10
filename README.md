@@ -56,8 +56,8 @@ Here is our basic plan:
   David A. Wheeler (Linux Foundation), Xavier Rene-Corail (GitHub),
   Jose Palafox (GitHub), Marta Rybczynska (Syslinbit),
   CRob (@SecurityRob) (Intel), John Naulty (Coinbase),
-  Arnaud J Le Hors (IBM), Glenn ten Cate (OWASP), and
-  Georg Kunz (Ericsson).
+  Arnaud J Le Hors (IBM), Glenn ten Cate (OWASP),
+  Georg Kunz (Ericsson), and Jory Burson (Linux Foundation).
   Note: Organizational affiliations are *only* shown to clarify who we mean.
 * If a project accepts, the notifier will tell a sender (David A. Wheeler or Jory Burson) key information: the project who has accepted, the email address to send private information to, and how the project accepted. The sender will then send the project the coupon codes and validation codes using the [coupon_sending.md](./coupon_sending.md) template. This is 2021-12-03..31.
 * Projects distribute the codes. Receivers use them to get the tokens from
