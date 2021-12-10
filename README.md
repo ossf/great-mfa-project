@@ -119,7 +119,7 @@ to create a final defensible list. The analysis ("selection criteria") for
 identifying candidate critical OSS projects included:
 
 * [OpenSSF Criticality Score](https://github.com/ossf/criticality_score): A top OpenSSF criticality score value. This metric prefers projects that are extremely active on specific forges. Such projects are likely to be important (at least to the participants). However, this is not a perfect measure; some projects will score low here and yet be very critical. Also, it currently only considers GitHub-hosted projects. As of 2021-11-23 the projects with the top scores are node, kubernetes, rust, and spark.
-* [Census Program II](https://www.coreinfrastructure.org/programs/census-program-ii/): Harvard preliminary analysis, uses SCA & dependency data. This tends to emphasize lower-level libraries that are depended on, tranisitively, by many.
+* [Census Program II](https://www.coreinfrastructure.org/programs/census-program-ii/): Harvard preliminary analysis, uses SCA & dependency data. This tends to emphasize lower-level libraries that are depended on, transitively, by many.
 * OSTIF Managed Audit Program: Programs OSTIF has recommended for audit. These were selected earlier from research sources, focusing on securing the most critical projects. You can see the [OSTIF Managed Audit Program (MAP25)](https://docs.google.com/spreadsheets/d/1oytKuD7UCX6nDXWQMr6ZgYYgap_SH_JVBof5gNrgSxo/edit#gid=0)
 * [Top Google Project](https://opensource.google/projects/list/featured):	Featured on Google Open Source page and widely adopted.
 * [Top Microsoft Project](https://opensource.microsoft.com/projects/): Featured on Microsoft Open Source page and widely adopted.
