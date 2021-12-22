@@ -24,7 +24,7 @@ Our apologies; we can’t control US law.
 To get an MFA Yubikey token from Github, go here:
 [OpenSSF & GitHub MFA Enablement Form](https://forms.gle/zYLbdmGsgAFbeZr26)
 
-<img src="github-key-1.png" alt="drawing" width="774" height="519"/>
+![Google Forms screenshot](github-key-1.png)
 
 You will need to enter your email address, your github user name/handle, and the validation code you were provided.
 
@@ -35,15 +35,15 @@ After you accepted to participate in this project, you will receive a coupon cod
 
 You then go to the [GitHub branded Yubikey from their shop](https://thegithubshop.com/products/github-branded-yubikey?_pos=1&_sid=4893867a7&_ss=r) to "buy" the token with the coupon code.
 
-<img src="github-key-2.png" alt="drawing" width="774" height="519"/>
+![GitHub shop screenshot](github-key-2.png)
 
 Choose the desired model of key (USB-C or USB-A) and "Add to Cart" to continue.
 
-<img src="github-key-3.png" alt="drawing" width="774" height="519"/>
+![GitHub shop model](github-key-3.png)
 
 Next, verify the proper desired token was selected and then "Check-out".
 
-<img src="github-key-4.png" alt="drawing" width="774" height="519"/>
+![GitHub shop checkout](github-key-4.png)
 
 Enter the appropriate information (email address, name, address, etc.).  
 Use the coupon code mailed to you and "Apply" it to your order.  This should adjust the price to "$0 USD".
