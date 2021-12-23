@@ -28,8 +28,8 @@ To get an MFA Yubikey token from Github, go here:
 
 You will need to enter your email address, your github user name/handle, and the validation code you were provided.
 
-After you accepted to participate in this project, you will receive a coupon code to order your key.
-
+After you agreed to participate in this project, within a few days
+you will receive a coupon code to order your key.
 
 ### Use coupon code to "buy" token
 
