@@ -65,7 +65,7 @@ forbidden (sanctioned) under US law as listed on
 So unless rules change we can't ship them to China, Afghanistan, Russia,
 Ukraine, North Korea, Iran, Sudan, and Syria.  Sorry about that.
 Google Titan keys are purchased directly from the store and are only
-available in select regions listen on <https://cloud.google.com/titan-security-key#section-5>.
+available in select regions listed on <https://cloud.google.com/titan-security-key#section-5>.
 
 We provide how-tos and other information at the
 "Great Multi-Factor Authentication (MFA) Distribution Project" site:
