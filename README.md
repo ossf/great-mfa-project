@@ -29,7 +29,7 @@ Here are step-by-step instructions:
 * [How to get a Yubikey token from GitHub](getting-yubikey-token-from-github.md)
 
 If you contribute to an OSS project and were not contacted during our first round of
-token distribution, please reach out to our [Working Group](openssf-wg-best-practices+owner@lists.openssf.org) for more information.
+token distribution, please reach out to our [Working Group](mailto:openssf-wg-best-practices+owner@lists.openssf.org) for more information.
 
 The OpenSSF cares about privacy and does *not* get detailed lists of
 who gets every token; we only get aggregate values (per-project Google tokens
