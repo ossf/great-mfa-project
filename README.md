@@ -107,6 +107,22 @@ Still, by using tools such as Multi-factor Authentication, the likelihood that b
 
 This will increase the level of security and protection for your project immensely, but use your common sense. 
 
+## Why not use an authentication app instead?
+
+An authentication app (such as Authy) running on a mobile phone
+is often stronger against attack than a simple password. So if you're using
+one, that's great!
+
+However, hardware tokens are stronger still against attack.
+Authentication apps are easier to "take over" than a hardware token
+because the underlying system (the phone/computer hardware and
+its operating system) is shared with other apps.
+Those other apps may have unintentional vulnerabilities or
+embedded malicious code that can be used to
+steal the keys underlying the authentication app.
+In contrast, hardware tokens
+are single-use so far fewer attacks work against them.
+
 ## How were critical OSS projects selected?
 
 For our purposes, a critical OSS project is an OSS project that can have
