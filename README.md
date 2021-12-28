@@ -121,7 +121,7 @@ Those other apps may have unintentional vulnerabilities or
 embedded malicious code that can be used to
 steal the keys underlying the authentication app.
 In contrast, hardware tokens
-are single-use so far fewer attacks work against them.
+are single-purpose so far fewer attacks work against them.
 
 ## How were critical OSS projects selected?
 
