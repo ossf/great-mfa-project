@@ -6,9 +6,6 @@ The following draft text is to be sent by a "sender" to a
 critical project's PRIVATE email address (or similar private channel),
 once they've agreed to accept the coupon and validation codes.
 
-NOTE: This needs to be fixed, GitHub plans to distribute a form entry
-that would then give a coupon code.
-
 Improvements welcome!
 
 ## Sending coupon and validation code text
@@ -17,7 +14,7 @@ Thanks so much for being willing to use these
 *free* multi-factor authentication (MFA) hardware tokens!
 
 Below are the coupon codes for the Google Titan tokens and/or
-thee validation keys for the GitHub Yubikey tokens.
+the validation codes for the GitHub Yubikey tokens.
 Please distribute each one to maintainers and contributors to your
 project and/or any open source software projects that your project depends on.
 DO NOT make the codes public, each code can only be used *once*.
@@ -28,13 +25,13 @@ If you decide not to use any coupon codes or validation codes, please
 tell us as soon as possible so we can give them to someone else.
 
 Those getting the Titan tokens from Google would use the Google Store's page for Titan tokens at <https://store.google.com/product/titan_security_key>.
-We have step-by-step instructions for getting a Titan key at <https://github.com/ossf/great-mfa-project/blob/main/getting-titan-token-from-google.md>.
+We have step-by-step instructions for getting a Titan token at <https://github.com/ossf/great-mfa-project/blob/main/getting-titan-token-from-google.md>.
 
 Those getting the Yubikey tokens from GitHub would first use a Google form
 to turn the validation code into a coupon code, at
 <https://forms.gle/zYLbdmGsgAFbeZr26>.
 They would then use the GitHub Shop's Yubikey page at <https://thegithubshop.com/products/github-branded-yubikey?_pos=1&_sid=4893867a7&_ss=r>.
-We have step-by-step instructions for getting a Yubikey key at <https://github.com/ossf/great-mfa-project/blob/main/getting-yubikey-token-from-github.md>.
+We have step-by-step instructions for getting a Yubikey token at <https://github.com/ossf/great-mfa-project/blob/main/getting-yubikey-token-from-github.md>.
 
 To qualify, each token recipient must:
 
@@ -64,9 +61,13 @@ forbidden (sanctioned) under US law as listed on
 <https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information>.
 So unless rules change we can't ship them to China, Afghanistan, Russia,
 Ukraine, North Korea, Iran, Sudan, and Syria.  Sorry about that.
-Google Titan keys are purchased directly from the store and are only
+Google Titan Key tokens are purchased directly from the store and are only
 available in select regions listed on <https://cloud.google.com/titan-security-key#section-5>.
 
 We provide how-tos and other information at the
 "Great Multi-Factor Authentication (MFA) Distribution Project" site:
 <https://github.com/ossf/great-mfa-project>
+
+## COUPON CODES
+
+## VALIDATION CODES
