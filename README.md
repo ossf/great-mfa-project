@@ -31,6 +31,10 @@ Here are step-by-step instructions:
 If you contribute to an OSS project and were not contacted during our first round of
 token distribution, please reach out to our [Working Group](openssf-wg-best-practices+owner@lists.openssf.org) for more information.
 
+Currently the tokens are shipped from the US. They are shipped
+internationally but that is subject to various limitations. See the
+[invitation.md](./invitation.md) for more information.
+
 The OpenSSF cares about privacy and does *not* get detailed lists of
 who gets every token; we only get aggregate values (per-project Google tokens
 and aggregate totals from GitHub).
