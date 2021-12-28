@@ -43,7 +43,11 @@ to tell us these numbers (preferably within 30 days of getting the codes):
 We ask for this information so we can tell others some simple measures of success. We don't need nor want the names of any individuals participating. It's fine to ask the people who got the codes for that information and provide a best-effort summary.
 
 The MFA tokens are shipped from the US.  They can be shipped internationally, but there are various limitations on where each can be shipped.
-
-In particular, we can't ship somewhere if that is forbidden (sanctioned) under US law.  So at this time we are unable to ship to individuals in China, Afghanistan, Russia, Ukraine, North Korea, Iran, Sudan, and Syria.  Sorry about that.  See the Google and GitHub sites for more shipping information.  [More sanction information is available](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information).
+In particular, we can't ship somewhere if that is forbidden (sanctioned) under US law.  So at this time we are unable to ship to individuals in China, Afghanistan, Russia, Ukraine, North Korea, Iran, Sudan, and Syria.
+Titan Security Keys from the Google Store can only be currently shipped to
+Austria, Canada, France, Germany, Italy, Japan, Spain, Switzerland, the UK, and the US;
+even if they are available in your region they may not be in stock
+at the moment and may not restock in time.
+Sorry about that.  See the Google and GitHub sites for more shipping information.  [More sanction information is available](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information).
 
 For more information including how-tos and other setup information can be found at the ["Great Multi-Factor Authentication (MFA) Distribution Project" site](https://github.com/ossf/great-mfa-project).
