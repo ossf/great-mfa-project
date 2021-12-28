@@ -29,7 +29,7 @@ Here are step-by-step instructions:
 * [How to get a Yubikey token from GitHub](getting-yubikey-token-from-github.md)
 
 If you contribute to an OSS project and were not contacted during our first round of
-token distribution, please reach out to our [Working Group](openssf-wg-best-practices+owner@lists.openssf.org) for more information.
+token distribution, please reach out to our [Working Group](mailto:openssf-wg-best-practices+owner@lists.openssf.org) for more information.
 
 Currently the tokens are shipped from the US. They are shipped
 internationally but that is subject to various limitations. See the
